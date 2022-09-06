@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <form>
+        <table width="80%" border="1" cellpadding="10" cellsoacing="0" align="center">
+            <tr>
+                <td colspan="2" align="center">
+                    <h1>Registration Form</h1>
+                    <hr width="250">
+                    <p>Create your account. It's free and only takes a minute.</p>
+                </td>
+            </tr>
+
+            <tr>
+                 <td>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" placeholder="First Name" id="firstName" required>
+                </td>
+                    
+                <td>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" placeholder="Last Name" id="lastName" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="father'sname">Father Name :</label>
+                    <input type="text" name="father'sname" id="father'sname">
+                </td>
+
+                <td>
+                    <label for="mother'sname">Mother Name:</label>
+                    <input type="text" name="mother'sname" id="mother'sname">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Date of Birth:</label>
+                    <input type="date" required>
+                </td>
+                <td>
+                    <label for=""> Email:</label>
+                    <input type="email" size="20" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Gender:</p>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label> <br>
+
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label> <br>
+
+                    <input type="radio" name="gender" id="others">
+                    <label for="others">Others</label> <br>
+                </td>
+
+                <td>
+                    <p>Course:</p>
+
+                    <input type="checkbox" name="" id="wd">
+                    <label for="wd">Web Design</label> <br>
+
+                    <input type="checkbox" name="" id="wdd">
+                    <label for="wdd">Web Development</label> <br>
+
+                    <input type="checkbox" name="" id="gd">
+                    <label for="gd">Graphic Design</label> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="nbr">Age:</label>
+                    <input type="number" name="" id="nbr" min="18" required>
+                </td>
+
+                <td>
+                    <label for="phn">Phone Number</label>
+                    <input type="tel" id="phn">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h4>Select your Country:</h4>
+                    <select name="Country" id="">
+                        
+                        <option > Select your Country</option>
+                        <optgroup label="Asia">
+                            <option selected> Bangladesh</option>
+                            <option> India</option>
+                            <option> Pakistan</option>
+                        </optgroup>
+
+                        <optgroup label="Euorpe">
+                            <option> Germany</option>
+                            <option> France</option>
+                            <option> Italy</option>
+                        </optgroup>
+
+                    </select>
+                </td>
+
+                <td>
+                    <h4>Select your picture</h4>
+                    <p>Only passport size.</p>
+                    <input type="file" name="" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+
+                    <label for="ws">Write something about you..</label>
+                    <textarea name="" id="ws" cols="100" rows="10" placeholder="write here......."></textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h4>Terms & Conditions:</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor doloribus quaerat minima provident incidunt perspiciatis, iusto facere laborum. Est recusandae numquam iusto ipsum rerum delectus sint voluptatem soluta quam!</p>
+                    <input type="checkbox" name="" id="tc">
+                    <label for="tc"> I accept the Terms of use & Privacy policy</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <input type="reset" value="Reset Form" width="300">
+                </td>
+
+                <td align="center">
+                    <input type="image" src="https://i0.wp.com/codemyui.com/wp-content/uploads/2015/10/submit-to-tick-button-animation.gif?fit=880%2C440&ssl=1" width="300">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
